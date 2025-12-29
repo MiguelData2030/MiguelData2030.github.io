@@ -7,7 +7,7 @@ author_profile: true
 
 ## 👋 Hola, soy Miguel Londoño
 
-Soy estudiante de **Ingeniería de Datos** con enfoque en **Analítica e Inteligencia Artificial**.  
+Soy Profesional en **Ingeniería de Datos** con enfoque en **Analítica e Inteligencia Artificial**.  
 Me apasiona transformar datos en conocimiento y construir soluciones basadas en datos reales.
 
 ---
