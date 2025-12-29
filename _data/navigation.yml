@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
+  - title: "Publicaciones"
     url: /posts/
-  - title: "Categories"
+  - title: "Categorías"
     url: /categories/
-  - title: "Tags"
+  - title: "Etiquetas"
     url: /tags/
-  - title: "About"
+  - title: "Acerca de mí"
     url: /about/
+  - title: "CV"
+    url: /cv/
