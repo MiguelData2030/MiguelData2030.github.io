@@ -59,9 +59,20 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Miguel Londoño"
-  avatar : "/assets/images/48416245.jfif"
-  bio    : "Ingeniería de Datos | Analítica de Datos | Inteligencia Artificial"
+  name   : "Miguel Ángel Londoño Díaz"
+  avatar : "/recursos/imagenes/48416245.jiff"
+  bio    : "Analista de Datos | Ingeniería de Datos | IA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MiguelData2030"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/miguel-angel-londo%C3%B1o-diaz-ab8a44b3/"
+    - label: "Correo"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:miguelalejandro21777@hotmail.com"
+
 
   links:
     - label: "GitHub"
@@ -89,24 +100,23 @@ footer:
 
 
 defaults:
-  # _posts
+  # POSTS
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
+
+  # PAGES (🔥 ESTO ES LA CLAVE 🔥)
   - scope:
-      path: "_pages"
+      path: "_paginas"
       type: pages
     values:
       layout: single
       author_profile: true
+      author: "Miguel Ángel Londoño Díaz"
+
 
 category_archive:
   type: liquid
