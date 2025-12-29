@@ -21,10 +21,10 @@ Me especializo en **diseño de pipelines de datos, analítica avanzada, machine 
 
 ---
 ## 🎓 Estudios
--Profesional Administracion de empresas (Politecnico GranColombiano) 2018
--Magister Bussines Inteligence Y Big Data (EUDE) 2024
--MicroMasters program in Statistics and Data Science (MIT)2025
--Magister Inteligencia y Analitica de Datos (ANDES) En Curso
+- Profesional Administracion de empresas (Politecnico GranColombiano) 2018
+- Magister Bussines Inteligence Y Big Data (EUDE) 2024
+- MicroMasters program in Statistics and Data Science (MIT)2025
+- Magister Inteligencia y Analitica de Datos (ANDES) En Curso
 
 ## 🧠 Intereses profesionales
 
