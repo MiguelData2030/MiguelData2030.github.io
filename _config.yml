@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Miguel Londoño"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Estudiante de Ingeniería de Datos | Analítica de Datos & Inteligencia Artificial"
+  bio    : "Ingeniería de Datos | Analítica de Datos | Inteligencia Artificial"
 
   links:
     - label: "GitHub"
