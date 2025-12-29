@@ -40,8 +40,9 @@ _Jun 2017 – Ene 2022_
 
 ## 🎓 Educación
 
-- **Maestría en Inteligencia y Analítica de Datos** – Universidad de los Andes *(2025–2027, en curso)*  
-- **Maestría en Business Intelligence y Ciencia de Datos** – EUDE *(2021–2023)*  
+- **Maestría en Inteligencia y Analítica de Datos** – Universidad de los Andes *(2025–2027, en curso)*
+- **Programa MicroMasters en Estadística y Ciencia de Datos** (MIT) *(2025)*
+- **Maestría en Business Intelligence y Ciencia de Datos** – EUDE *(2022–2024)*  
 - **Administración de Empresas** – Politécnico Grancolombiano *(2012–2018)*  
 
 ---
