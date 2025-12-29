@@ -1,43 +1,49 @@
 ---
-title: "Acerca de Mi"
-permalink: /about/
+title: "Acerca de mí"
 layout: single
+permalink: /about/
 author_profile: true
 ---
 
-## 👋 Hola, soy Miguel Londoño
+## 👋 Hola, soy Miguel Ángel Londoño Diaz
 
-Soy Profesional en **Ingeniería de Datos** con enfoque en **Analítica e Inteligencia Artificial**.  
-Me apasiona transformar datos en conocimiento y construir soluciones basadas en datos reales.
+Soy **Analista de Datos Senior** con enfoque en **Ingeniería de Datos e Inteligencia Artificial**, actualmente trabajando en **PepsiCo** y en formación continua hacia roles avanzados de **Data Engineering e IA aplicada**.
 
----
-
-## 🎯 Objetivo profesional
-
-Mi objetivo es convertirme en un Referente en **Ingenieria de Datos / IA sólido**, capaz de:
-
-- Diseñar pipelines de datos eficientes
-- Analizar información para la toma de decisiones
-- Aplicar Machine Learning a problemas reales
+Me especializo en **diseño de pipelines de datos, analítica avanzada, machine learning y visualización**, transformando datos complejos en decisiones estratégicas de negocio.
 
 ---
 
-## 🧠 Intereses actuales
+## 🚀 ¿Qué hago actualmente?
 
-- 📊 Análisis de datos
-- 🤖 Machine Learning
-- 🧠 Inteligencia Artificial
-- 🗄️ SQL y modelado de datos
-- 📈 Visualización de datos
+- 🔹 Analista de Datos Sr en **PepsiCo**
+- 📊 Diseño de **Data Warehouses**, ETL/ELT y modelos predictivos
+- 🤖 Exploración activa de **IA generativa, LLMs y MLOps**
+
+---
+## 🎓 Estudios
+-Profesional Administracion de empresas (Politecnico GranColombiano) 2018
+-Magister Bussines Inteligence Y Big Data (EUDE) 2024
+-MicroMasters program in Statistics and Data Science (MIT)2025
+-Magister Inteligencia y Analitica de Datos (ANDES) En Curso
+
+## 🧠 Intereses profesionales
+
+- Data Engineering & Arquitectura de Datos  
+- Machine Learning & IA aplicada  
+- Big Data & Data Governance  
+- Visualización avanzada (Power BI, dashboards ejecutivos)  
 
 ---
 
-## 🚀 Sobre este portafolio
+## 🌱 Un poco más personal
 
-Este sitio es mi espacio personal donde comparto:
+Fuera del código me gusta:
+- 📚 Leer (mucho)
+- 🐾 Voluntariado con mascotas
+- 🧘 Mindfulness
+- 🚀 Aprender constantemente (esto no se apaga 😄)
 
-- Proyectos de análisis de datos
-- Experimentos de Machine Learning
-- Aprendizajes y documentación técnica
+---
 
-👉 El contenido crecerá progresivamente a medida que avance en mi carrera.
+👉 **¿Quieres ver mi experiencia completa?**  
+[Consulta mi CV aquí →](/cv/)
