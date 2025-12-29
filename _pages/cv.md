@@ -7,7 +7,7 @@ author_profile: true
 
 ## 💼 Perfil profesional
 
-**Data Analyst / Data Engineer** con más de 7 años de experiencia en análisis, ingeniería de datos y soluciones analíticas avanzadas. Experto en convertir datos en valor estratégico mediante arquitecturas escalables, automatización y modelos predictivos.
+**Data Analyst / Data Engineer** con más de 4 años de experiencia en análisis, ingeniería de datos y soluciones analíticas avanzadas. Experto en convertir datos en valor estratégico mediante arquitecturas escalables, automatización y modelos predictivos.
 
 ---
 
