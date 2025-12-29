@@ -1,5 +1,5 @@
 ---
-title: "Acerca de"
+title: "Acerca de Mi"
 permalink: /about/
 layout: single
 author_profile: true
@@ -14,7 +14,7 @@ Me apasiona transformar datos en conocimiento y construir soluciones basadas en 
 
 ## 🎯 Objetivo profesional
 
-Mi objetivo es convertirme en un **Ingeniero de Datos / IA sólido**, capaz de:
+Mi objetivo es convertirme en un Referente en **Ingenieria de Datos / IA sólido**, capaz de:
 
 - Diseñar pipelines de datos eficientes
 - Analizar información para la toma de decisiones
