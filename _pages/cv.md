@@ -82,9 +82,10 @@ _Jun 2017 – Ene 2022_
 ---
 
 📄 <strong>Descargar CV en PDF</strong><br>
-<a href="/assets/images/Curriculum Miguel LondonoING Datos.pdf" target="_blank" download>
-  Haz clic aquí
+<a href="/assets/images/cv-miguel-londono-data-engineer.pdf" target="_blank" download>
+👉 Haz clic aquí
 </a>
+
 
 
 
