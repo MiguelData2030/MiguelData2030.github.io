@@ -3,7 +3,9 @@ title: "Acerca de mí"
 permalink: /about/
 layout: single
 author_profile: true
+author: miguel
 ---
+
 
 ## 👋 Hola, soy Miguel Ángel Londoño Díaz
 
