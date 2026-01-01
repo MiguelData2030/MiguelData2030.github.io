@@ -60,8 +60,8 @@ plugins:
 
 author:
   name   : "Miguel Ángel Londoño Díaz"
-  avatar : "/recursos/imagenes/48416245.jiff"
-  bio    : "Analista de Datos | Ingeniería de Datos | IA"
+  avatar : "/assets/images/48416245.jiff"
+  bio    : "Analista de Datos Senior | Ingeniería de Datos | IA aplicada"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -72,6 +72,7 @@ author:
     - label: "Correo"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:miguelalejandro21777@hotmail.com"
+
 
 
   links:
