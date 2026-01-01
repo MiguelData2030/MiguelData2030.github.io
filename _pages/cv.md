@@ -81,9 +81,10 @@ _Jun 2017 – Ene 2022_
 
 ---
 
-📄 **Descargar CV en PDF**  
-<a href="/assets/cv/Curriculum Miguel LondonoING Datos.pdf" download>
+📄 <strong>Descargar CV en PDF</strong><br>
+<a href="/assets/cv/Curriculum Miguel LondonoING Datos.pdf" target="_blank" download>
   Haz clic aquí
 </a>
+
 
 
