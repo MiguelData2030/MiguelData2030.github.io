@@ -124,7 +124,7 @@ Aquí los datos quedan **confiables y listos para análisis**.
 
 ## 📊 Capa MART – Consumo analítico
 
-![Snowflake MART](../assets/img/snowflake_raw.png)
+![Snowflake MART](/assets/images/Mart.png)
 
 La capa **MART** queda preparada para:
 
