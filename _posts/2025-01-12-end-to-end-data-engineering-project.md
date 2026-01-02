@@ -47,7 +47,9 @@ Esto es algo Sencillo pero cubre esta necesidad!!!
 ---
 
 ## 🏗️ Arquitectura de Datos
-![Amazon Problema](/assets/images/Amazon_Problema.png)
+
+![Arquitectura End-to-End](/assets/images/Arquitectura.png)
+
 
 
 
