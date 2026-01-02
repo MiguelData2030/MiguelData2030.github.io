@@ -47,8 +47,10 @@ Esto es algo Sencillo pero cubre esta necesidad!!!
 ---
 
 ## 🏗️ Arquitectura de Datos
+<img src="/assets/images/arquitectura_end_to_end_v1.png"
+     alt="Arquitectura End-to-End Amazon Delivery"
+     width="100%">
 
-<img src="/assets/images/Arquitectura.png" alt="Arquitectura End-to-End" width="100%">
 
 
 
