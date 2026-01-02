@@ -78,7 +78,7 @@ para poder practicar reglas de negocio para practicar DBT
 
 ## ☁️ Data Lake – Amazon S3
 
-![Amazon S3 Bucket](../assets/images/AmazonS3.png)
+![Amazon S3 Bucket](/assets/images/AmazonS3.png)
 
 - Bucket: `amazon-deliveryml`
 - Almacenamiento de archivos CSV
