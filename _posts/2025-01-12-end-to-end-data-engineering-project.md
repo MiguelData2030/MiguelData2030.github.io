@@ -89,7 +89,7 @@ para poder practicar reglas de negocio para practicar DBT
 
 ## ❄️ Data Warehouse – Snowflake (RAW)
 
-![Snowflake RAW](../assets/img/snowflake_raw.png)
+![Snowflake RAW](/assets/images/snowflake_raw.png)
 
 En la capa **RAW**:
 
