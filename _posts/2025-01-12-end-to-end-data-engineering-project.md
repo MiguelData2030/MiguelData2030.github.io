@@ -46,7 +46,6 @@ Esto dificulta responder preguntas clave como:
 Esto es algo Sencillo pero cubre esta necesidad!!!
 ---
 
-
 ## 🏗️ Arquitectura de Datos
 
 ![Arquitectura End-to-End Amazon Delivery](/assets/images/arquitectura_end_to_end_v1.png)
