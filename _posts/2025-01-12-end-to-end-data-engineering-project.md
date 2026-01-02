@@ -6,7 +6,7 @@ tags: [Data Engineering, Snowflake, AWS, S3, SQL, Python]
 ---
 
 ## 🚚 End-to-End Data Engineering Project – Amazon Delivery (Last Mile)
-![Amazon End-to-End]({{ site.baseurl }}/assets/images/Amazon_Problema.png)
+![Amazon End-to-End](/assets/images/Amazon_Problema.png)
 
 
 En este proyecto diseñé e implementé una **arquitectura end-to-end de ingeniería de datos**, simulando un escenario real de **logística y entregas de última milla**.  
