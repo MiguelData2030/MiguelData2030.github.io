@@ -104,7 +104,7 @@ Esta capa preserva la información original tal como llega.
 
 ## 🧼 Capa STAGING – Limpieza y tipado
 
-![Snowflake STAGING](../assets/img/snowflake_staging.png)
+![Snowflake STAGING](/assets/imges/Staging.png)
 
 En **STAGING** se aplican transformaciones clave:
 
