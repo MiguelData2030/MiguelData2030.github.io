@@ -121,6 +121,10 @@ defaults:
       layout: single
       author_profile: true
 
+baseurl: ""
+![Amazon End-to-End]({{ site.baseurl }}/assets/images/Amazon_Problema.png)
+
+
 
 
 category_archive:
