@@ -48,7 +48,7 @@ Esto es algo Sencillo pero cubre esta necesidad!!!
 
 ## 🏗️ Arquitectura de Datos
 
-![Arquitectura End-to-End](/assets/images/Arquitectura.png)
+![Amazon End-to-End](/assets/images/Arquitectura.png)
 
 **Flujo general:**
 
