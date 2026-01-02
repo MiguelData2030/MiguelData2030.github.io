@@ -17,8 +17,8 @@ El objetivo fue transformar datos crudos en información confiable y lista para 
 
 La mayoria de empresas tienen los siguientes problemas al momento de obtener los datos de ultima milla:
 
-- Llegar en archivos **CSV desordenados**
-- Tener **fechas, horas y coordenadas mal tipadas**
+- Archivos de diferentes fuentes SQL, SCV, EXCEL,Bases de datos
+- Tener fechas, horas y coordenadas mal tipadas
 - Mezclar datos históricos con datos recientes
 - No estar listos para análisis ni KPIs operativos
 - Una gran base de datos pero no toda es necesaria
