@@ -182,11 +182,19 @@ Que Realmente Aprendi de esta implementacion:
 - Aplicar buenas prácticas modernas de Data Engineering
 
 ## 👽 Reflexion:
-Al ir implementando la Solucion, algo Clave que aprendi es que en la Realidad, debemos conocer de manera oportuna
-que es lo que el negocio quiere, Calcular un aproximado de cuanta data vamos a mover por todo el pipeline para 
-poder determinar costos, Responder a las preguntas que el negocio esta buscando, este hacer un ejercicio practico
-trate de imaginarme que era lo que el usuario queria para poder llegar a esta solucion, Mas adelante cuando tenga
-mas madurez en implementacion volvere a este ejercicio y dare otro veredicto si fue lo necesario o pude hacerlo mejor!
+Al avanzar en la implementación de la solución, confirmé que la ingeniería de datos no empieza con la tecnología,
+sino con el entendimiento del negocio. Antes de escribir una sola línea de código, es clave comprender qué preguntas se quieren responder,
+con qué nivel de precisión y en qué momento.
+Otro aprendizaje importante fue dimensionar de forma realista el volumen de datos que se moverá a lo largo del pipeline, 
+ya que esto impacta directamente en costos, rendimiento y decisiones de arquitectura. No todo necesita ser “big data”, 
+pero todo debe estar bien diseñado.
+Este ejercicio también me permitió entender que una buena solución no es la más compleja, 
+sino la que resuelve el problema correcto de forma sostenible, dejando el camino preparado para crecer.
+Diseñar capas claras (RAW, STAGING, MART) y separar la lógica técnica de la lógica de negocio facilita el mantenimiento, la escalabilidad y la adopción por otros equipos.
+
+Finalmente, entendí que los proyectos de datos son iterativos. 
+Con mayor madurez técnica y mayor contexto del negocio, volver a evaluar decisiones pasadas es parte natural del proceso. 
+Este proyecto no es un punto final, sino una base sólida sobre la cual seguir optimizando, mejorando y profesionalizando la solución.
 
 ---
 
