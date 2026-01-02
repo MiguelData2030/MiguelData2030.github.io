@@ -48,7 +48,8 @@ Esto es algo Sencillo pero cubre esta necesidad!!!
 
 ## 🏗️ Arquitectura de Datos
 
-![Arquitectura End-to-End](/assets/images/Arquitectura.png)
+<img src="/assets/images/Arquitectura.png" alt="Arquitectura End-to-End" width="100%">
+
 
 
 
