@@ -9,7 +9,7 @@ tags: [Data Engineering, Snowflake, AWS, S3, dbt, SQL, Python, Analytics Enginee
 
 ## 🏨 End-to-End Data Engineering Project – Airbnb_Project
 
-![Amazon End-to-End](./assets/images/amazon_end_to_end_architecture.png)
+![Airbnb End-to-End](./assets/images/Airbnb.png)
 
 En este proyecto diseñé e implementé una **arquitectura end-to-end de ingeniería de datos**, simulando un escenario real de **logística y entregas de última milla**, con un enfoque claro en **escalabilidad, calidad de datos y analítica avanzada**.
 
