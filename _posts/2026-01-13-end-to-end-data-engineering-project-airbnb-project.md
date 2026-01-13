@@ -1,13 +1,9 @@
 ---
 title: "End-to-End Data Engineering Project – Airbnb_Project"
 date: 2026-01-13
-last_modified_at: 2026-01-13
 categories: [Data Engineering, Cloud, Snowflake, AWS]
 tags: [Data Engineering, Snowflake, AWS, S3, dbt, SQL, Python, Analytics Engineering]
-header:
-  image: /assets/images/Airbnb_portada.png
-  teaser: /assets/images/Airbnb_portada.png
-excerpt: "Pipeline end-to-end de ingeniería de datos para Airbnb usando AWS S3, Snowflake y dbt. Arquitectura Lakehouse, capas Bronze-Staging-Marts, y modelo Star Schema para BI y ML."
+excerpt: "Proyecto completo de ingeniería de datos para Airbnb: desde ingesta en S3 hasta modelado analítico en Snowflake con dbt. Arquitectura Lakehouse, capas Bronze-Staging-Marts y modelo Star Schema."
 ---
 
 ## Contexto del proyecto 🏨
