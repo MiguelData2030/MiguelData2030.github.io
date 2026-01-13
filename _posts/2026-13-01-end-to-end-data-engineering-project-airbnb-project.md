@@ -6,7 +6,7 @@ tags: [Data Engineering, Snowflake, AWS, S3, dbt, SQL, Python, Analytics Enginee
 excerpt: "Proyecto completo de ingeniería de datos para Airbnb: desde ingesta en S3 hasta modelado analítico en Snowflake con dbt. Arquitectura Lakehouse, capas Bronze-Staging-Marts y modelo Star Schema."
 ---
 
-## Contexto del proyecto 🏨
+## 🏨 End-to-End Data Engineering Project – Airbnb (Reservas) 
 Antes de escribir una sola línea de código, el primer paso fue **entender el negocio de Airbnb desde la perspectiva de datos**.
 
 Airbnb opera a escala global, con millones de **listings**, **hosts** y **reservas**, lo que genera **volúmenes masivos de datos históricos y transaccionales**.  
