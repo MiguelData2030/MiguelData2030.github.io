@@ -11,9 +11,6 @@ excerpt: "Pipeline end-to-end de ingeniería de datos para Airbnb usando AWS S3,
 ---
 
 ## Contexto del proyecto 🏨
-
-![Airbnb End-to-End](/assets/images/Airbnb_portada.png)
-
 Antes de escribir una sola línea de código, el primer paso fue **entender el negocio de Airbnb desde la perspectiva de datos**.
 
 Airbnb opera a escala global, con millones de **listings**, **hosts** y **reservas**, lo que genera **volúmenes masivos de datos históricos y transaccionales**.  
@@ -25,7 +22,7 @@ Para este escenario, estimé un crecimiento aproximado de **~5 TB de datos**, co
 - Cambios históricos y datos incrementales
 
 El reto no era solo almacenar datos, sino **transformarlos en información confiable, escalable y reutilizable** para analítica y machine learning.
-
+![Airbnb End-to-End](/assets/images/Airbnb_portada.png)
 ---
 
 ## 🎯 Problema de negocio
