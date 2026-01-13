@@ -1,29 +1,179 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2019-04-18T15:34:30-04:00
-categories:
-  - blog
-tags:
-  - Jekyll
-  - update
+
+title: "End-to-End Data Engineering Project – Airbnb_Project"
+date: 2025-01-12
+categories: [Data Engineering, Cloud, Snowflake, AWS]
+tags: [Data Engineering, Snowflake, AWS, S3, dbt, SQL, Python, Analytics Engineering]
+
 ---
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## 🏨 End-to-End Data Engineering Project – Airbnb_Project
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![Amazon End-to-End](./assets/images/amazon_end_to_end_architecture.png)
 
-Jekyll also offers powerful support for code snippets:
+En este proyecto diseñé e implementé una **arquitectura end-to-end de ingeniería de datos**, simulando un escenario real de **logística y entregas de última milla**, con un enfoque claro en **escalabilidad, calidad de datos y analítica avanzada**.
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+El objetivo principal fue transformar **datos crudos** en **datasets confiables, gobernados y listos para consumo**, aplicando **buenas prácticas modernas de Data Engineering y Analytics Engineering**.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+---
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## 🎯 Problema de negocio
+
+Las operaciones de **última milla** generan grandes volúmenes de datos provenientes de múltiples fuentes, lo que suele ocasionar problemas como:
+
+- Datos distribuidos en **CSV, Excel, SQL y múltiples sistemas**
+- Errores en **fechas, horas, IDs y relaciones**
+- Dificultad para escalar el análisis cuando el volumen crece
+- Dependencia de procesos manuales para preparar información
+- Falta de una **fuente única de la verdad (Single Source of Truth)**
+
+En este escenario, el negocio necesita:
+- Analizar desempeño operativo
+- Preparar datos para **BI (Power BI)** y **Machine Learning**
+- Escalar sin rediseñar la arquitectura cada vez que crecen los datos
+
+---
+
+## 📊 Escalabilidad y volumen de datos
+
+Durante el diseño estimé un volumen aproximado de **5 TB de datos históricos**, considerando:
+
+- Eventos de entregas
+- Reservas / pedidos
+- Información de clientes, ubicaciones y hosts
+- Crecimiento continuo en el tiempo
+
+Por esta razón, la solución se diseñó desde el inicio para:
+- Soportar **grandes volúmenes**
+- Separar **almacenamiento y cómputo**
+- Permitir **escalado horizontal**
+- Mantener costos controlados
+
+---
+
+## 🏗️ Arquitectura utilizada
+
+La arquitectura sigue un enfoque **Lakehouse + Analytics Engineering**, combinando lo mejor de Data Lakes y Data Warehouses.
+
+![Arquitectura Lakehouse](./assets/images/amazon_lakehouse_flow.png)
+
+### Flujo general
+
+1. **Amazon S3** como Data Lake
+2. **Snowflake** como motor analítico
+3. **dbt (Antigravity)** para transformación y modelado
+4. Capas Bronze → Staging → Marts
+5. Datos listos para **Power BI y Machine Learning**
+
+---
+
+## 🧰 Stack tecnológico
+
+- **Amazon S3** → Data Lake / Source of Truth  
+- **Snowflake** → Data Warehouse escalable  
+- **dbt (Antigravity)** → Transformaciones, tests y documentación  
+- **SQL** → Lógica de negocio  
+- **Python** → Preparación y automatización  
+- **GitHub** → Control de versiones  
+- **Power BI / ML** → Consumo final de datos  
+
+---
+
+## 🔄 Flujo de datos detallado
+
+### 1️⃣ Data Lake – Amazon S3
+
+- Almacena los datos **en bruto**
+- No se modifica la información original
+- Funciona como **fuente única de la verdad**
+- Permite reprocesar datos históricos sin pérdida
+
+---
+
+### 2️⃣ Snowflake – Capa Bronze
+
+- Ingesta directa desde S3
+- Datos **tal como llegan**
+- Sin reglas de negocio complejas
+- Garantiza trazabilidad y auditoría
+
+Ejemplo:
+- `bronze_bookings`
+- `bronze_hosts`
+- `bronze_listings`
+
+---
+
+### 3️⃣ Snowflake – Capa Staging (dbt)
+
+- Limpieza y estandarización
+- Normalización de nombres y tipos de datos
+- Preparación para análisis
+
+Ejemplos:
+- `stg_bookings`
+- `stg_hosts`
+- `stg_listings`
+
+---
+
+### 4️⃣ Snowflake – Capa Marts (dbt)
+
+- Modelado analítico
+- Esquema estrella
+- Optimizado para BI y ML
+
+Tablas finales:
+- `dim_hosts`
+- `dim_listings`
+- `fct_bookings`
+
+---
+
+## 🧠 Reglas de negocio implementadas con dbt
+
+- Validaciones `not_null` y `unique`
+- Tests de relaciones entre dimensiones y hechos
+- Separación clara de responsabilidades por capa
+- Transformaciones versionadas y documentadas
+- Re-ejecución confiable del pipeline
+
+Esto garantiza:
+- **Calidad de datos**
+- **Confianza del negocio**
+- **Menos errores en dashboards y modelos**
+
+---
+
+## 📈 Consumo de datos
+
+Los datos finales quedan listos para:
+
+- **Power BI** → dashboards operativos y estratégicos
+- **Equipos de Machine Learning** → feature engineering
+- **Analistas** → consultas rápidas y confiables
+- **Stakeholders** → toma de decisiones basada en datos
+
+---
+
+## ✅ Conclusiones
+
+- Se construyó un pipeline **end-to-end realista y escalable**
+- La arquitectura soporta **grandes volúmenes de datos**
+- dbt permitió gobernar y validar la lógica de negocio
+- Snowflake aportó flexibilidad y performance
+- El diseño está preparado para crecer sin refactorizar
+
+---
+
+## 🔍 Reflexión final
+
+Este proyecto refleja cómo un **Data Engineer moderno** no solo mueve datos, sino que **diseña sistemas confiables, escalables y orientados al negocio**.
+
+La combinación de **Data Lake + Snowflake + dbt** permite construir plataformas de datos preparadas para el futuro, donde **Analytics y Machine Learning** pueden convivir sobre una misma base sólida.
+
+Este enfoque es totalmente aplicable a escenarios reales de **logística, retail, supply chain y operaciones a gran escala**.
+
+---
+
+🚀 *Proyecto desarrollado como parte de mi portafolio profesional en Data Engineering.*
