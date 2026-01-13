@@ -1,6 +1,6 @@
 ---
 title: "End-to-End Data Engineering Project – Amazon Delivery"
-date: 2026-06-01
+date: 2026-01-13
 categories: [Data Engineering, Cloud, Snowflake, AWS]
 tags: [Data Engineering, Snowflake, AWS, S3, SQL, Python]
 ---
