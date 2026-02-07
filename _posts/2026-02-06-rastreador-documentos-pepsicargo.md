@@ -11,22 +11,22 @@
 ### � Acceso Seguro y Privado
 La aplicación cuenta con una pantalla de inicio de sesión con estética **Glassmorphism**, asegurando que solo personal autorizado de PepsiCargo acceda a la información sensible.
 
-![Pantalla de Inicio de Sesión](login_screen.png)
+![Pantalla de Inicio de Sesión](/assets/images/login_screen.png)
 
 ### 📊 Panel de Control (Dashboard)
 Visualización inmediata de KPIs críticos. El dashboard categoriza los vehículos según su estado de cumplimiento, destacando aquellos en situación **Crítica**, en **Alerta** o **En Regla**.
 
-![Dashboard de Vencimientos](dashboard_overview.png)
+![Dashboard de Vencimientos](/assets/images/dashboard_overview.png)
 
 ### 🚛 Gestión de Flota e Inventario
 Una vista tipo "Dataframe" que permite buscar y filtrar vehículos por placa. Muestra de forma inteligente el estado de los documentos fundamentales con códigos de colores accionables.
 
-![Inventario de Vehículos](fleet_inventory.png)
+![Inventario de Vehículos](/assets/images/fleet_inventory.png)
 
 ### 📝 Registro y Control Técnico
 Formularios optimizados para el ingreso de nuevas unidades, con campos específicos para flota propia y terceros, incluyendo VIN, motor y capacidad de carga.
 
-![Registro de Nuevo Vehículo](vehicle_registration.png)
+![Registro de Nuevo Vehículo](/assets/images/vehicle_registration.png)
 
 ---
 
@@ -37,12 +37,12 @@ El proyecto utiliza **Supabase** como núcleo de datos, aprovechando PostgreSQL 
 ### Modelo de Datos
 La arquitectura está diseñada para la escalabilidad, incluyendo tablas de auditoría y políticas de seguridad RLS.
 
-![Visualización del Esquema](database_schema.png)
+![Visualización del Esquema](/assets/images/database_schema.png)
 
 ### Catálogo de Tablas
 Estructura modular que separa la información del vehículo de sus documentos y alertas de vencimiento.
 
-![Tablas de Base de Datos](database_tables.png)
+![Tablas de Base de Datos](/assets/images/database_tables.png)
 
 ---
 
