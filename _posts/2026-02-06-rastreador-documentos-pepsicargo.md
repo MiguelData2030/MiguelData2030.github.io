@@ -1,6 +1,7 @@
 # 🚚 Doc-Tracker Pepsicargo
 
-![Dashboard Hero](dashboard_overview.png)
+![Dashboard Hero](/assets/images/Probledashboard_overview.png)
+
 
 ## 🎯 Objetivo del Proyecto
 **Doc-Tracker** es una solución empresarial de vanguardia diseñada para el control riguroso de la documentación de flota en **PepsiCargo**. El sistema automatiza el seguimiento de vigencias críticas (SOAT, RTM, Seguros), integrándose directamente con fuentes oficiales como el **RUNT** para garantizar que ningún vehículo opere fuera de la norma.
