@@ -1,6 +1,6 @@
 # 🚚 Doc-Tracker Pepsicargo
 
-![Dashboard Hero](/assets/images/Panel.png)
+![Dashboard Hero](/assets/images/control.png)
 
 
 ## 🎯 Objetivo del Proyecto
@@ -16,7 +16,7 @@ La aplicación cuenta con una pantalla de inicio de sesión con estética **Glas
 ### 📊 Panel de Control (Dashboard)
 Visualización inmediata de KPIs críticos. El dashboard categoriza los vehículos según su estado de cumplimiento, destacando aquellos en situación **Crítica**, en **Alerta** o **En Regla**.
 
-![Dashboard de Vencimientos](/assets/images/dashboard_overview.png)
+![Dashboard de Vencimientos](/assets/images/Panel.png)
 
 ### 🚛 Gestión de Flota e Inventario
 Una vista tipo "Dataframe" que permite buscar y filtrar vehículos por placa. Muestra de forma inteligente el estado de los documentos fundamentales con códigos de colores accionables.
