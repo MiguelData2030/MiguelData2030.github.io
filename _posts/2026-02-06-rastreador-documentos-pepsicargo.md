@@ -1,6 +1,6 @@
 # 🚚 Doc-Tracker Pepsicargo
 
-![Dashboard Hero](/assets/images/dashboard_overview.png)
+![Dashboard Hero](/assets/images/panel.png)
 
 
 ## 🎯 Objetivo del Proyecto
