@@ -1,70 +1,60 @@
 # 📊 Insight Lab: La Historia del Crédito Contada por sus Tasas de Interés
 
-> **Insight Lab** es un ecosistema interactivo e inteligente diseñado para el análisis visual avanzado de un portafolio de créditos, procesando poco más de **1 millón de registros transaccionales**.
+**Insight Lab** es un ecosistema analítico de alto rendimiento diseñado para la visualización inteligente de datos financieros. Este proyecto procesa más de **1 millón de registros transaccionales**, transformando datos crudos en una narrativa visual que permite entender el comportamiento del crédito, las tasas de interés y los volúmenes de desembolso en el mercado colombiano.
+
+![Vista General del Dashboard](https://raw.githubusercontent.com/MiguelData2030/DATA_STORYTELLING/main/assets/image_6b922e.jpg)
 
 ---
 
-## 💡 Descripción del Proyecto
-El dashboard permite tomar decisiones estratégicas basadas en el comportamiento histórico y actual del crédito en el mercado financiero. Mediante una interfaz moderna, transformamos datos complejos en una narrativa visual accionable.
+## 🚀 Ecosistema Tecnológico y Construcción
 
-*(Nota: Las imágenes de previsualización corresponden al diseño final del dashboard)*
+La arquitectura se diseñó bajo un enfoque de **Enterprise Data Analytics**, separando la capa de procesamiento (ETL), almacenamiento y visualización para garantizar escalabilidad:
 
+### 1. Ingesta y ETL (Python)
+El pipeline de datos fue construido en **Python**, utilizando bibliotecas como `pandas` y `httpx`.
+* **Limpieza Profunda:** Se implementó una lógica de "Saneamiento de Datos" para corregir anomalías numéricas y discrepancias tipográficas (ej. estandarización de categorías como "Gran Empresa").
+* **Normalización:** Conversión obligatoria de cabeceras a `snake_case` y formateo estricto de fechas a `YYYY-MM-DD`.
+* **Carga Automatizada:** Los datos procesados se inyectan en la base de datos mediante una API REST, garantizando la integridad referencial.
 
+### 2. Infraestructura y Backend (Supabase)
+Se utilizó **Supabase** como motor de base de datos relacional (PostgreSQL):
+* **Modelo Relacional:** Estructura optimizada para consultas rápidas sobre la tabla principal `credit_data`.
+* **Trazabilidad:** Implementación de tablas de auditoría (`audit_logs`) que registran cada inserción y cambio en el sistema.
 
----
-
-## 👥 Equipo del Proyecto
-Este proyecto fue desarrollado colaborativamente por:
-* **Adolfo Ramírez Moreno** - Desarrollador de Visualizaciones
-* **Gisell Gutierrez Fernandez** - Analista de Datos
-* **Miguel Londoño** - Diseñador Web & Data Engineer
-
----
-
-## 🚀 Ecosistema Tecnológico
-Construido con tecnologías modernas y escalables orientadas al alto rendimiento:
-
-* **Frontend:** `Next.js`, `React`, `Tailwind CSS v3` (Estética Glassmorphism / Dark Mode).
-* **Gráficos:** `Recharts` (Gráficos interactivos SVG).
-* **Backend / DB:** `Supabase` (PostgreSQL avanzado con API REST).
-* **Pipeline de Datos:** `Python` (`pandas`, `httpx` para ETL y limpieza de datos).
-* **Calidad:** Implementación de tableros de auditoría (`audit_logs`) para asegurar la trazabilidad.
-
-
+### 3. Frontend y Visualización (Next.js & Tailwind)
+La interfaz se desarrolló con un enfoque en la experiencia de usuario (UX) avanzada:
+* **Framework:** `Next.js` y `React` para una navegación fluida y renderizado eficiente.
+* **Estética:** Diseño **Glassmorphism** en modo oscuro (Dark Mode) utilizando `Tailwind CSS v3`.
+* **Interactividad:** Los gráficos fueron creados con `Recharts`, permitiendo visualizaciones dinámicas en formato SVG que responden a los filtros del usuario.
 
 ---
 
-## 📂 Arquitectura del Dashboard
-La plataforma cuenta con una barra de navegación lateral para transicionar entre cuatro perspectivas:
+## 📂 Arquitectura Funcional del Dashboard
 
-### 1. Generalidades
-Vista introductoria con la cobertura del proyecto:
-* **Volumen de Datos:** +1.01 Millones de registros analizados.
-* **Cobertura Temporal:** Enero 2023 - Marzo 2024.
-* **Glosario Visual:** Explicación técnica de iconografía (Montos, Tasas, Operaciones y Ticket Promedio).
+El ecosistema se divide en perspectivas estratégicas que cubren todo el ciclo de vida del análisis de crédito:
 
-### 2. Dashboard Principal (Centro de Mando)
-* **KPIs:** Tasas Efectivas Mín/Máx, Volumen de Desembolso y Ticket Promedio.
-* **Rankings:** Concentración del volumen por Entidad Financiera.
-* **Garantías:** Relación entre volumen y modalidad (SG, FNG, IDÓNEA).
-* **Distribución SMLV:** Histograma estratificado según el Salario Mínimo Legal Vigente.
+### 🔵 Centro de Mando Cuantitativo (Dashboard Principal)
+En esta sección se visualizan los indicadores clave de rendimiento (KPIs) en tiempo real:
+* **Métricas de Impacto:** Tasa Efectiva promedio (47.79%), Volumen Total Desembolsado ($10.5B), Créditos Activos y Ticket Promedio por operación.
+* **Análisis Competitivo:** Ranking de entidades financieras por volumen de mercado.
+* **Segmentación de Riesgo:** Relación entre el volumen desembolsado y el tipo de garantía (FNG, Idónea, etc.).
 
+![Análisis de Productos y SMLV](https://raw.githubusercontent.com/MiguelData2030/DATA_STORYTELLING/main/assets/image_6b91eb.jpg)
 
+### 🔵 Participación y Estrategia de Producto
+* **Comportamiento del Mercado:** Desglose de montos desembolsados y tasas ponderadas por tipo de producto (Empresarial, Crédito Popular Productivo, etc.).
+* **Distribución SMLV:** Histograma que clasifica el crédito según el rango de monto basado en el Salario Mínimo Legal Vigente, permitiendo identificar si el mercado está compuesto por micro o macrocréditos.
 
-### 3. Distribución de Créditos
-Enfoque demográfico corporativo:
-* **Segmentación:** Tamaño de la Empresa (Micro, Pequeña, Mediana, Gran Empresa).
-* **Tipo de Persona:** Mapa de distribución entre Persona Natural vs. Jurídica.
+### 🔵 Calidad de Datos (Data Quality)
+Para asegurar que las decisiones se tomen sobre datos confiables, se incluyó un módulo de documentación técnica:
+* **Riesgos Identificados:** Manejo de valores nulos y formatos de fecha inconsistentes de fuentes externas (Excel).
+* **Estrategias de Mitigación:** Coerción de tipos obligatoria y manejo robusto de errores en los scripts de migración.
 
-
-
-### 4. Documentación (Data Quality)
-* **Modelado Relacional:** Esquema transaccional `credit_data` y auditoría `audit_logs`.
-* **Gestión de Riesgos:** Estrategias de mitigación para anomalías, formatos de fecha y limpieza ETL (estandarizado a `snake_case`).
+![Documentación y Calidad de Datos](https://raw.githubusercontent.com/MiguelData2030/DATA_STORYTELLING/main/assets/image_6b8f21.jpg)
 
 ---
 
-## 🛠 Instalación y Configuración Local
+## 🛠️ Instalación y Configuración Local
 
 1. **Clonar el Repositorio**
    ```bash
