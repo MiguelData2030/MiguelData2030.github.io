@@ -7,7 +7,7 @@ tags: [PostgreSQL, Python, Vercel, Supabase, Cloud, Portfolio]
 
 ## 💳 Proyecto End-to-End: Análisis de Riesgo Crediticio y Storytelling
 
-![Header Image Placeholder](/assets/images/credit_project_header.png)
+![Header Image Placeholder](/assets/images/Vista_1_Credito.png)
 
 En este proyecto diseñé e implementé una solución completa para la visualización y análisis de **datos de crédito**, rompiendo con el esquema tradicional de reportes estáticos. El objetivo fue construir una aplicación web que no solo muestre datos, sino que cuente la historia detrás del riesgo y la aprobación financiera.
 
@@ -25,7 +25,7 @@ El análisis de créditos suele enfrentarse a barreras que limitan la toma de de
 
 ## 💡 La Solución: Arquitectura Desacoplada
 
-![Header Image Placeholder](/assets/images/credit_project_header.png)
+![Header Image Placeholder](/assets/images/Vista_2_Credito.png)
 
 Propuse una arquitectura moderna que permite total libertad en el manejo de la ingeniería de datos basada en:
 
@@ -47,7 +47,7 @@ Al procesar la información con Python, identifiqué patrones clave que un dashb
 
 ## 🧼 Ingeniería vs. BI Tradicional
 
-![Header Image Placeholder](/assets/images/credit_project_header.png)
+![Header Image Placeholder](/assets/images/Vista_3_Credito.png)
 
 Una de las premisas de este proyecto es que **los dashboards no necesariamente deben construirse en Power BI**. Al usar esta arquitectura descubrí que:
 
