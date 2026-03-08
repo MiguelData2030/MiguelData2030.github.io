@@ -25,6 +25,8 @@ El análisis de créditos suele enfrentarse a barreras que limitan la toma de de
 
 ## 💡 La Solución: Arquitectura Desacoplada
 
+![Header Image Placeholder](/assets/images/credit_project_header.png)
+
 Propuse una arquitectura moderna que permite total libertad en el manejo de la ingeniería de datos basada en:
 
 - **Supabase (PostgreSQL)** como motor de base de datos y backend.
@@ -44,6 +46,8 @@ Al procesar la información con Python, identifiqué patrones clave que un dashb
 ---
 
 ## 🧼 Ingeniería vs. BI Tradicional
+
+![Header Image Placeholder](/assets/images/credit_project_header.png)
 
 Una de las premisas de este proyecto es que **los dashboards no necesariamente deben construirse en Power BI**. Al usar esta arquitectura descubrí que:
 
