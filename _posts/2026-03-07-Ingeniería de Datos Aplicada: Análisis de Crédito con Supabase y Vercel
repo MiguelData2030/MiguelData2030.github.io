@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Ingeniería de Datos Aplicada: Análisis de Crédito con Supabase y Vercel"
+excerpt_separator: ""
+categories:
+  - Ingeniería de Datos
+  - Proyectos
+tags:
+  - Supabase
+  - Vercel
+  - Python
+  - Análisis de Crédito
+  - MLOps
+---
+
+En este proyecto, transformé un conjunto de datos complejos de solicitudes de crédito en una plataforma de visualización dinámica. Mi objetivo: demostrar que la ingeniería de datos personalizada supera las limitaciones del BI tradicional.
+
+## 📊 El Corazón del Proyecto: Análisis de Crédito
+
+Para este desarrollo, utilicé datos reales de comportamiento crediticio. No se trata solo de ver números; se trata de entender el **riesgo y la oportunidad**. 
+
+### ¿Qué descubrí en los datos?
+Al procesar la información con **Python y Pandas**, identifiqué patrones clave que un dashboard estándar de Power BI a veces oculta:
+
+1.  **Segmentación de Riesgo:** Logré clasificar a los clientes no solo por su saldo, sino por su probabilidad de mora mediante lógica de ingeniería de datos.
+2.  **Ciclo de Aprobación:** Analicé los cuellos de botella en el proceso de solicitud, permitiendo ver en qué sede o etapa se estancan los créditos.
+3.  **Correlación de Variables:** Descubrí cómo factores como la edad o el tipo de contrato influyen directamente en el cumplimiento de los pagos.
+
+---
+
+## 🛠️ La Arquitectura: ¿Cómo lo construí?
+
+Este proyecto no vive en un archivo local; es un ecosistema en la nube:
+
+* **Ingeniería de Datos (Python):** Limpieza, normalización y carga de los datos del crédito.
+* **Base de Datos (Supabase/PostgreSQL):** Almacenamiento escalable con consultas en tiempo real.
+* **Despliegue (Vercel):** Una interfaz web rápida que permite al usuario interactuar con los filtros de crédito sin demoras.
+
+[ESPACIO PARA IMAGEN: Captura de pantalla de la tabla de créditos en Supabase o gráfico de barras de aprobados vs rechazados]
+
+---
+
+## 💡 Mi Tesis: Por qué NO siempre usar Power BI
+
+Como alguien que trabaja en transporte y logística, y que se está formando en IA, mi visión es clara: **Los dashboards no deben ser cárceles de datos.**
+
+Aunque Power BI es útil, construir esta "ingeniería de datos desde cero" ofrece ventajas que las plataformas cerradas no pueden igualar:
+
+1.  **Escalabilidad SaaS:** Este proyecto puede convertirse en una herramienta que cualquier empresa de transporte use para evaluar el crédito de sus transportistas o proveedores.
+2.  **Integración de IA/ML:** Al tener los datos en un entorno propio, puedo aplicar modelos de **Machine Learning** (como árboles de decisión) directamente sobre la base de datos de Supabase sin pagar licencias Premium de terceros.
+3.  **Control Total:** Personalicé la lógica de negocio para que se adapte exactamente a la necesidad del análisis, sin depender de los visuales limitados de un software comercial.
+
+---
+
+## 🚀 Conclusión y Resultados
+
+Este proyecto es una prueba de que la **Transformación de Datos** en las empresas modernas requiere perfiles híbridos que entiendan de analítica, pero también de infraestructura y desarrollo web.
+
+**Mira el proyecto en vivo aquí:** [Data Storytelling & Credit App](https://data-storytelling-3mc09yv94-miguel-londonos-projects-e00dd309.vercel.app/)
+
+**[ESPACIO PARA IMAGEN: Captura de pantalla del dashboard principal del proyecto]**
+
+---
