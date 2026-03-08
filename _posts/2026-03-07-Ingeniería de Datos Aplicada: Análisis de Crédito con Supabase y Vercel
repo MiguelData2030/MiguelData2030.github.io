@@ -7,90 +7,60 @@ tags: [PostgreSQL, Python, Vercel, Supabase, Cloud, Portfolio]
 ---
 
 ## 💳 Proyecto End-to-End: Análisis de Riesgo Crediticio y Storytelling
+
 ![Header Image Placeholder](/assets/images/credit_project_header.png)
 
 En este proyecto diseñé e implementé una solución completa para la visualización y análisis de **datos de crédito**, rompiendo con el esquema tradicional de reportes estáticos. El objetivo fue construir una aplicación web que no solo muestre datos, sino que cuente la historia detrás del riesgo y la aprobación financiera.
 
----
+***
 
 ## 🎯 El Desafío de Negocio
 
 El análisis de créditos suele enfrentarse a barreras que limitan la toma de decisiones rápida:
 
-- **Datos en Silos:** Información dispersa en archivos locales o bases de datos cerradas.
-- **Visualización Rígida:** Dependencia de licencias costosas (Power BI/Tableau) que limitan la personalización.
-- **Falta de Contexto:** Reportes que muestran "qué pasó" pero no "por qué pasó" o "qué perfil tiene el cliente".
-- **Actualización Manual:** Procesos tediosos para refrescar la información.
+* **Datos en Silos:** Información dispersa en archivos locales o bases de datos cerradas.
+* **Visualización Rígida:** Dependencia de licencias costosas que limitan la personalización.
+* **Falta de Contexto:** Reportes que no explican el "por qué" detrás del perfil del cliente.
 
----
+***
 
-## 💡 La Solución: Arquitectura Desacoplada y Web-Native
+## 💡 La Solución: Arquitectura Desacoplada
 
-Propuse una arquitectura moderna, escalable y de bajo costo que permite total libertad en el manejo de la ingeniería de datos:
+Propuse una arquitectura moderna que permite total libertad en el manejo de la ingeniería de datos:
 
-- **Supabase (PostgreSQL):** Como motor de base de datos y backend "as a service".
-- **Vercel:** Para el despliegue de la aplicación frontend con alta disponibilidad.
-- **Python:** Para la limpieza y transformación de los datos del crédito antes de su ingesta.
+* **Supabase (PostgreSQL):** Como motor de base de datos y backend para el almacenamiento persistente.
+* **Vercel:** Para el despliegue de la aplicación frontend con alta disponibilidad.
+* **Python:** Para la limpieza, normalización y transformación de los datos del crédito.
 
----
-
-## 🏗️ Arquitectura del Proyecto
-
-![Arquitectura del Proyecto](/assets/images/arquitectura_storytelling.png)
-
-**Flujo de Trabajo:**
-1.  **Ingeniería de Datos:** Procesamiento de archivos fuente con Python (Pandas) para estandarizar perfiles crediticios.
-2.  **Capa de Persistencia:** Almacenamiento estructurado en **Supabase** usando PostgreSQL.
-3.  **Capa de Presentación:** Interfaz construida para **Data Storytelling**, desplegada en **Vercel**.
-
----
+***
 
 ## 🔍 Análisis de Datos: ¿Qué descubrí en el Crédito?
 
-Al trabajar con los datos del proyecto, identifiqué puntos críticos para el negocio que una herramienta estándar podría pasar por alto:
+Al procesar la información con Python, identifiqué patrones clave que un dashboard estándar a veces oculta:
 
-- **Patrones de Aprobación:** Identificación clara de qué variables (ingresos, historial, edad) tienen mayor peso en la decisión final.
-- **Segmentación de Riesgo:** Clasificación de clientes en perfiles "Premium", "Standard" y "High Risk" basada en lógica de datos.
-- **Eficiencia Operativa:** Análisis de los tiempos de respuesta en las solicitudes de crédito para detectar cuellos de botella.
+* **Segmentación de Riesgo:** Clasificación de clientes según su probabilidad de mora mediante lógica de datos.
+* **Ciclo de Aprobación:** Identificación de cuellos de botella en el proceso de solicitud por sede o etapa.
+* **Correlación de Variables:** Análisis de cómo factores como ingresos y edad influyen en el cumplimiento de pagos.
 
----
+***
 
 ## 🧼 Ingeniería vs. BI Tradicional
 
-Una de las premisas de este proyecto es que **los dashboards no necesariamente deben construirse en Power BI**. Al usar esta arquitectura de ingeniería de datos descubrí que:
+Una de las premisas de este proyecto es que **los dashboards no necesariamente deben construirse en Power BI**. Al usar esta arquitectura descubrí que:
 
-* **Flexibilidad:** Puedo crear visualizaciones interactivas que responden exactamente a la necesidad del usuario sin restricciones de plantillas.
-* **Integración:** Es mucho más sencillo conectar estos datos con otros microservicios o aplicaciones (como mi proyecto *Doc-Tracker*).
-* **Costo:** Eliminamos el pago de licencias por visor, democratizando el acceso a la información dentro de la organización.
+* **Flexibilidad:** Permite crear visualizaciones interactivas a medida sin restricciones de plantillas.
+* **Costo-Eficiencia:** Se elimina el pago de licencias por visor, democratizando el acceso a la información.
+* **Escalabilidad SaaS:** La arquitectura está lista para crecer y ser utilizada por múltiples usuarios o empresas.
 
----
-
-## 🧩 Tecnologías Utilizadas
-
-* **Python:** Limpieza y modelado de datos.
-* **Supabase:** Base de datos PostgreSQL y API Rest.
-* **Vercel:** Hosting y CI/CD.
-* **Tailwind/HTML/JS:** Para un frontend moderno y responsivo.
-
----
-
-## 🧠 Reflexión y Conclusión
-
-Este proyecto me confirmó que la ingeniería de datos es el puente entre los datos crudos y la estrategia de negocio. Aprendí que:
-
-1.  **El Negocio manda:** No se trata de usar la herramienta más cara, sino la que mejor resuelva el problema de forma sostenible.
-2.  **Independencia Tecnológica:** Tener la capacidad de construir tu propio stack (Supabase + Vercel) te da una ventaja competitiva enorme como profesional de datos.
-3.  **Storytelling:** Un dato bien presentado en una web personalizada impacta mucho más que una tabla en un PDF.
-
----
+***
 
 ## 🚀 Ver el Proyecto en Vivo
 
 Puedes explorar la aplicación y los resultados del análisis aquí:
 👉 [**Data Storytelling - Credit Project**](https://data-storytelling-3mc09yv94-miguel-londonos-projects-e00dd309.vercel.app/)
 
----
+***
 
-## 👽 Próximos Pasos
-- Implementar modelos de **Machine Learning** directamente en la base de datos para predicción de mora.
-- Automatizar la ingesta de datos mediante **GitHub Actions**.
+## 👽 Reflexión Final
+
+Este proyecto me confirmó que la ingeniería de datos no empieza con la tecnología, sino con el entendimiento del negocio. Construir tu propia "Torre de Control" permite un control total del flujo, desde la ingesta hasta la presentación final.
