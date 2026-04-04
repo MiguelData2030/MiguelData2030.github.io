@@ -46,6 +46,8 @@ En la vida real, los agentes no toman la decisión última e irrefutable, sino q
   2. Inmediatamente invoca al **Sisetac Watcher** consultando el precio de referencia estándar para poder ver si la pretensión del conductor es viable.
   3. El **Fleet Matcher** recibe esta data estructurada. Identifica que hay cargas B2B estancadas y correlaciona, preparando un mensaje preaprobado de confirmación asegurando el 14% de intermediación comercial.
 * **Toma de Decisión Humana (Copiloto):** En la plataforma se genera una tarjeta de recomendación. El operador logístico humano, que entiende que el conductor es aliado recurrente, simplemente da clic en **"Asignar Tarea"**. Automáticamente, la IA responde por WhatsApp cerrando el viaje e inyectando los datos al Data Analyst.
+* 
+![Panel de Control](/assets/images/Dash3.png)
 
 ### Caso 2: Prospección Comercial Inteligente (Flujo B2B Growth)
 * **Contexto:** La empresa requiere aumentar la demanda de rutas hacia la costa norte en un 15% para cumplir los KPIs pautados para el Q1-2026. 
@@ -79,6 +81,7 @@ En la vida real, los agentes no toman la decisión última e irrefutable, sino q
 * **Toma de Decisión Humana (Copiloto):** El coordinador logístico simplemente aprueba la tarifa recalculada en el Dashboard. Gracias a que el enjambre de agentes IA pudo mapear e interpretar las leyes de oferta y demanda en tiempo real, la empresa logra una **consecución inmedita** de un vehículo para cumplirle a su corporativo, y aumenta brutalmente la rentabilidad escalando el margen estándar.
 
 ---
+![Panel de Control](/assets/images/Dash4.png)
 
 ## 🚀 Instalación y Despliegue Local
 
