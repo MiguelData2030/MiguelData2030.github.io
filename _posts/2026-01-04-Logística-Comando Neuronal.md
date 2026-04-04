@@ -9,7 +9,7 @@ etiquetas: [IA, Python, NLP, Data Analytics, Sisetac, FastAPI, SQLite]
 
 ![Panel de Control](/assets/images/Dash1.png)
 
-**Logistics Neural Command** es un centro de comando autónomo implementado en Python y diseñado para la orquestación inteligente del modelo logístico en Colombia. El sistema opera a partir de **5 Agentes de Inteligencia Artificial** cooperando a través de una base de datos central en SQLite y comunicándose vía colas asíncronas en Node/Python, alimentando un Dashboard Ejecutivo estilo *Glassmorphism* en tiempo real.
+**Logistica y Transportes con Agentes IA** es un centro de comando autónomo implementado en Python y diseñado para la orquestación inteligente del modelo logístico en Colombia. El sistema opera a partir de **5 Agentes de Inteligencia Artificial** cooperando a través de una base de datos central en SQLite y comunicándose vía colas asíncronas en Node/Python, alimentando un Dashboard Ejecutivo estilo *Glassmorphism* en tiempo real.
 
 ---
 
