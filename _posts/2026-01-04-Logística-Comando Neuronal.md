@@ -30,8 +30,10 @@ En la vida real, los agentes no toman la decisión última e irrefutable, sino q
 3. **Fleet Matcher (Asignador Algorítmico):** Mediante variables geoespaciales y calificaciones (scoring ponderado al 50% Cercanía, 30% Rating, 20% Historial) escoge el conductor ideal asegurando un mínimo margen de intermediación del 11%.
 4. **Growth Hunter (Cazador Comercial):** Desarrolla ventas B2B. Aporta carga corporativa al sistema persiguiendo nuevos tratos orgánicos.
 5. **Data Analyst (Estratega Analítico):** Interpreta en tiempo real toda la operación, calculando el *Fill Rate*, variables de P&L, márgenes e inyectando las métricas hacia el Frontend WebSockets.
-[Panel de Control](/assets/images/Dash2.png)
+
 ---
+
+![Panel de Control](/assets/images/Dash2.png)
 
 ## 🌍 Casos de Uso en la Vida Real (Interacción de Agentes)
 
