@@ -1,5 +1,5 @@
 ---
-titulo: "Logistics Neural Command - Arquitectura Multi-Agente Autónoma"
+titulo: "Logistica y Transportes con Agentes IA - Arquitectura Multi-Agente Autónoma"
 fecha: 04/01/2026
 categorias: [Inteligencia Artificial, Python, Logística, Arquitectura Tech]
 etiquetas: [IA, Python, NLP, Data Analytics, Sisetac, FastAPI, SQLite]
