@@ -3,9 +3,11 @@ titulo: "Logistics Neural Command - Arquitectura Multi-Agente Autónoma"
 fecha: 04/01/2026
 categorias: [Inteligencia Artificial, Python, Logística, Arquitectura Tech]
 etiquetas: [IA, Python, NLP, Data Analytics, Sisetac, FastAPI, SQLite]
----
+--- 
 
 # ⚡ Logistics Neural Command
+
+![Dashboard Hero](/assets/images/Dash 1.png)
 
 **Logistics Neural Command** es un centro de comando autónomo implementado en Python y diseñado para la orquestación inteligente del modelo logístico en Colombia. El sistema opera a partir de **5 Agentes de Inteligencia Artificial** cooperando a través de una base de datos central en SQLite y comunicándose vía colas asíncronas en Node/Python, alimentando un Dashboard Ejecutivo estilo *Glassmorphism* en tiempo real.
 
