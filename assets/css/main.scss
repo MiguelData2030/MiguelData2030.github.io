@@ -109,8 +109,8 @@ body { -webkit-font-smoothing: antialiased; }
 
 /* --- Portada --- */
 .layout--splash .page__content { font-size: 1em; }
-.home { max-width: 1120px; margin: 0 auto; }
-.home a { text-decoration: none; }
+.home { max-width: 1120px; margin: 1.6em auto 0; }
+.home a, .entries-grid a, .archive__item-title a { text-decoration: none; border-bottom: 0 !important; }
 .hero {
   position: relative; overflow: hidden; border: 1px solid $border-color; border-radius: 18px; padding: 3.2em 2.6em;
   display: grid; grid-template-columns: 1.15fr 1fr; gap: 2.4em; align-items: center;
@@ -135,7 +135,7 @@ body { -webkit-font-smoothing: antialiased; }
   &--principal:hover { background: #7fb2ff; }
 }
 .terminal {
-  background: #07090d; border: 1px solid #232b3a; border-radius: 12px; font-family: $monospace; font-size: 0.68em;
+  background: #07090d; border: 1px solid #232b3a; border-radius: 12px; font-family: $monospace; font-size: 0.66em; min-width: 0;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45); overflow: hidden;
 }
 .terminal__barra { display: flex; gap: 6px; padding: 10px 12px; border-bottom: 1px solid #1a2030; }
@@ -160,7 +160,7 @@ body { -webkit-font-smoothing: antialiased; }
 }
 .destacado img { width: 100%; height: 100%; object-fit: cover; object-position: left top; border: 0 !important; border-radius: 0 !important; display: block; }
 .destacado__texto { padding: 1.6em 1.7em; }
-.destacado__texto h3 { margin: 0 0 0.5em; font-size: 1.12em; line-height: 1.3; letter-spacing: -0.02em; }
+.destacado__texto h3 { color: $text-color; margin: 0 0 0.5em; font-size: 1.12em; line-height: 1.3; letter-spacing: -0.02em; }
 .destacado__texto p { color: #b6bdca; font-size: 0.85em; line-height: 1.6; margin: 0 0 1em; }
 .etiqueta { display: inline-block; font-family: $monospace; font-size: 0.64em; color: $acento3; border: 1px solid rgba($acento3, 0.35); border-radius: 20px; padding: 2px 10px; margin: 0 0 0.9em; }
 

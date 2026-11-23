@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Miguel_Data"
 locale: "es"
+date_format: "%d/%m/%Y"
 og_image: /assets/images/lastmile-resultados.png
 email: 
 description: >-
