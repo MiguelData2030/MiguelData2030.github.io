@@ -1,13 +1,13 @@
 main:
+  - title: "Proyectos IA"
+    url: /ia-generativa/
+
+  - title: "Publicaciones"
+    url: /posts/
+
   - title: "Acerca de mí"
     url: /about/
 
   - title: "CV"
     url: /cv/
-
-  - title: "Publicaciones"
-    url: /
-
-  - title: "IA Generativa"
-    url: /ia-generativa/
 

@@ -13,16 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MIguel_Data
+title: "Miguel_Data"
+locale: "es"
+og_image: /assets/images/lastmile-resultados.png
 email: 
 description: >-
   Portafolio profesional de Miguel Londoño.
   Proyectos de análisis de datos, ingeniería de datos y
   machine learning aplicados a problemas reales.
 
-twitter_username: username
 github_username: MiguelData2030
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "dark"
 search: true
 
 # Build settings
@@ -32,7 +33,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Bogota
 
 include:
   - _pages
@@ -73,21 +74,6 @@ author:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:miguelalejandro21777@hotmail.com"
 
-
-
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/MiguelData2030"
-
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/miguel-angel-londo%C3%B1o-diaz-ab8a44b3/"
-
-    - label: "Correo"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:tucorreo@gmail.com"
-
 footer:
   links:
     - label: "GitHub"
@@ -96,7 +82,7 @@ footer:
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/TU-USUARIO"
+      url: "https://www.linkedin.com/in/miguel-angel-londo%C3%B1o-diaz-ab8a44b3/"
 
 
 
@@ -109,6 +95,11 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: "Contenido"
+      toc_icon: "list"
       comments: false
       share: true
       related: true

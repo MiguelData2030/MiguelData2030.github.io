@@ -1,7 +1,82 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+title: "Datos e IA aplicada a logística"
+excerpt: "Portafolio de Miguel Londoño: ingeniería de datos e IA generativa aplicadas a logística y cadena de suministro."
 ---
+
+<div class="home">
+
+  <section class="hero">
+    <div>
+      <p class="hero__eyebrow">INGENIERÍA DE DATOS · IA GENERATIVA · LOGÍSTICA</p>
+      <h1>Construyo sistemas de datos e IA que <span class="grad">se pueden medir</span>.</h1>
+      <p class="hero__lead">Soy Miguel Londoño, Analista de Datos Senior en PepsiCo. Diseño pipelines, modelos analíticos y sistemas con modelos de lenguaje para logística y cadena de suministro, siempre con un número de calidad detrás.</p>
+      <div class="hero__cta">
+        <a class="boton boton--principal" href="{{ '/ia-generativa/' | relative_url }}">Ver proyectos de IA</a>
+        <a class="boton" href="{{ '/posts/' | relative_url }}">Publicaciones</a>
+        <a class="boton" href="https://github.com/MiguelData2030"><i class="fab fa-github"></i>&nbsp; GitHub</a>
+      </div>
+    </div>
+    <div class="terminal" aria-label="Resumen de la evaluación del proyecto lastmile-report">
+      <div class="terminal__barra"><i></i><i></i><i></i></div>
+<pre><span class="p">$</span> uv run lastmile-eval --prompt v2 --reintentos 1
+<span class="c">Evaluando 50 casos · modelo: gpt-4.1-mini</span>
+
+  calculo_ok_pct         <span class="n">100.0</span>
+  alertas_ok_pct         <span class="n">100.0</span>
+  reporte_fiel_pct       <span class="n">100.0</span>
+  costo_usd_por_reporte  <span class="n">0.00133</span>
+  segundos_por_reporte   <span class="n">4.4</span>
+
+<span class="ok">✓ aciertos: 70 % → 100 %</span> <span class="c">tras dos mejoras medidas</span></pre>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="seccion__titulo"><h2>Proyecto destacado</h2><small>IA generativa · noviembre de 2026</small></div>
+    <a class="destacado" href="{{ '/ia-generativa/reporte-diario-ultima-milla/' | relative_url }}">
+      <img src="{{ '/assets/images/lastmile-resultados.png' | relative_url }}" alt="Resultados de la evaluación: de 70 % a 100 % de reportes correctos">
+      <div class="destacado__texto">
+        <span class="etiqueta">LLM + evals</span>
+        <h3>Reporte diario de última milla: el código calcula, el modelo redacta</h3>
+        <p>Un asistente que redacta el reporte de una estación de entregas sin inventar una sola cifra. pandas calcula, el modelo escribe y un verificador comprueba cada número.</p>
+        <span class="boton">Leer el proyecto →</span>
+      </div>
+    </a>
+    <div class="cifras">
+      <div class="cifra"><b>1,4 M</b><span>paquetes reales analizados</span></div>
+      <div class="cifra"><b>50</b><span>casos de evaluación</span></div>
+      <div class="cifra"><b>70 → 100 %</b><span>reportes correctos</span></div>
+      <div class="cifra"><b>0,0013 USD</b><span>costo por reporte</span></div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="seccion__titulo"><h2>En qué trabajo</h2></div>
+    <div class="areas">
+      <a class="area" href="{{ '/ia-generativa/' | relative_url }}"><i class="fas fa-robot"></i><b>IA generativa</b><span>Sistemas con modelos de lenguaje, salida estructurada, verificación y evals.</span></a>
+      <a class="area" href="{{ '/categories/#data-engineering' | relative_url }}"><i class="fas fa-database"></i><b>Ingeniería de datos</b><span>Pipelines de punta a punta: S3, Snowflake, dbt y modelado analítico.</span></a>
+      <a class="area" href="{{ '/categories/#data-storytelling' | relative_url }}"><i class="fas fa-chart-line"></i><b>Data storytelling</b><span>Aplicaciones y tableros que explican el porqué detrás de los datos.</span></a>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="seccion__titulo"><h2>Publicaciones recientes</h2><a href="{{ '/posts/' | relative_url }}">Ver todas →</a></div>
+    <div class="entries-grid">
+      {% for post in site.posts limit: 6 %}
+        {% include archive-single.html type="grid" %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="seccion__titulo"><h2>Stack</h2></div>
+    <div class="chips">
+      <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">pandas</span><span class="chip">Pydantic</span>
+      <span class="chip">FastAPI</span><span class="chip">LLMs</span><span class="chip">Evals</span><span class="chip">Snowflake</span>
+      <span class="chip">dbt</span><span class="chip">AWS S3</span><span class="chip">Azure</span><span class="chip">Databricks</span>
+      <span class="chip">Airflow</span><span class="chip">Power BI</span><span class="chip">Supabase</span><span class="chip">pytest</span>
+    </div>
+  </section>
+
+</div>

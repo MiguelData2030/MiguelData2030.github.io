@@ -1,4 +1,7 @@
 ---
+title: "Logistics Neural Command: logística y transporte con agentes de IA"
+header:
+  teaser: /assets/images/Dash1.png
 titulo: "Logistica y Transportes con Agentes IA - Arquitectura Multi-Agente Autónoma"
 fecha: 04/01/2026
 categorias: [Inteligencia Artificial, Python, Logística, Arquitectura Tech]

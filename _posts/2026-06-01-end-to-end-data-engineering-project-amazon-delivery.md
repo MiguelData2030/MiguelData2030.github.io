@@ -3,6 +3,8 @@ title: "End-to-End Data Engineering Project – Amazon Delivery"
 date: 2026-01-13
 categories: [Data Engineering, Cloud, Snowflake, AWS]
 tags: [Data Engineering, Snowflake, AWS, S3, SQL, Python]
+header:
+  teaser: /assets/images/Amazon_Problema.png
 ---
 
 ## 🚚 End-to-End Data Engineering Project – Amazon Delivery (Last Mile)

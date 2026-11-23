@@ -3,6 +3,8 @@ title: "Data Storytelling & Engineering: Análisis de Crédito con Stack Moderno
 date: 2026-03-07
 categories: [Data Engineering, Data Storytelling, Supabase, Vercel]
 tags: [PostgreSQL, Python, Vercel, Supabase, Cloud, Portfolio]
+header:
+  teaser: /assets/images/Vista_1_Credito.png
 ---
 
 ## 💳 Proyecto End-to-End: Análisis de Riesgo Crediticio y Storytelling

@@ -1,3 +1,9 @@
+---
+title: "Doc-Tracker Pepsicargo: rastreador de documentos de flota"
+header:
+  teaser: /assets/images/control.png
+---
+
 # 🚚 Doc-Tracker Pepsicargo
 
 ![Dashboard Hero](/assets/images/control.png)

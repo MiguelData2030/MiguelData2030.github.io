@@ -4,6 +4,8 @@ date: 2026-11-23
 categories: [IA Generativa]
 tags: [IA Generativa, LLM, Evals, Python, pandas, Pydantic, FastAPI, Logística, Última Milla]
 permalink: /ia-generativa/reporte-diario-ultima-milla/
+header:
+  teaser: /assets/images/lastmile-resultados.png
 excerpt: "Mi primer sistema con un LLM dentro: un asistente que redacta el reporte diario de una estación de última milla sin inventar ni una cifra, medido con 50 casos de prueba."
 ---
 

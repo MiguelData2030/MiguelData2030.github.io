@@ -2,6 +2,7 @@
 title: "Proyectos de IA Generativa"
 layout: category
 taxonomy: IA Generativa
+entries_layout: grid
 permalink: /ia-generativa/
 author_profile: true
 ---
