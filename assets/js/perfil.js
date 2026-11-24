@@ -41,7 +41,7 @@
       var cy = Math.cos(gy), sy = Math.sin(gy), cx = Math.cos(gx), sx = Math.sin(gx);
       var estrecho = ancho < 760;
       var R = Math.min(alto * 0.46, ancho * (estrecho ? 0.55 : 0.30));
-      var ox = estrecho ? ancho * 0.72 : ancho * 0.74, oy = alto * (estrecho ? 0.30 : 0.44);
+      var ox = estrecho ? ancho * 0.78 : ancho * 0.80, oy = alto * (estrecho ? 0.30 : 0.44);
       var p = nodos.map(function (n) { return proyectar(n, cy, sy, cx, sx, R, ox, oy); });
 
       ctx.clearRect(0, 0, ancho, alto);
