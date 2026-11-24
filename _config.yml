@@ -63,7 +63,7 @@ plugins:
 author:
   name   : "Miguel Ángel Londoño Díaz"
   avatar : "/assets/images/48416245.jpg"
-  bio    : "Analista de Datos Senior | Ingeniería de Datos | IA aplicada"
+  bio    : "Analista de Datos Senior | Machine Learning | IA generativa"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
