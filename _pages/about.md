@@ -55,16 +55,26 @@ Construyo en pareja con asistentes de IA, y mi trabajo es dirigir, decidir y ver
 
 ---
 
-## 🎓 Formación académica
+## 🎓 Ruta académica
 
-Mi formación de posgrado es la **Maestría en Inteligencia y Analítica de Datos de la Universidad de los Andes**, donde profundizo en:
+Mi formación no es una lista de cursos sueltos: es una ruta diseñada para llegar a **liderar estratégicamente empresas de alto nivel con inteligencia artificial**.
 
-- Machine Learning y modelos predictivos
-- Aprendizaje profundo
-- Analítica avanzada
-- Diseño de soluciones de datos e IA para organizaciones
+| Etapa | Programa | Institución |
+|---|---|---|
+| Base de posgrado | Maestría en Inteligencia y Analítica de Datos | Universidad de los Andes |
+| Finales de 2027 | Postulación a la maestría en Inteligencia Artificial | Georgia Tech |
+| Certificaciones de prestigio | Inteligencia Artificial | Stanford |
+| Certificaciones de prestigio | Machine Learning | MIT |
+| Posgrado cumbre | Blended Master's in Supply Chain Management | MIT |
 
-Esta formación me permite unir **teoría y práctica**: los fundamentos en la universidad y la aplicación en proyectos reales.
+Cada etapa cumple una función:
+
+- **Universidad de los Andes** me da los fundamentos de Machine Learning, modelos predictivos y analítica avanzada.
+- **Georgia Tech** es la profundidad técnica en inteligencia artificial, en una de las escuelas de computación más reconocidas del mundo.
+- **Stanford y MIT** validan esos conocimientos con certificaciones de referencia mundial.
+- **El máster del MIT en gestión de la cadena de suministro** es la cumbre: une la IA con el sector donde he construido toda mi carrera.
+
+Son metas, no títulos obtenidos. Las publico porque un plan escrito y público me obliga a cumplirlo.
 
 ---
 
@@ -84,7 +94,7 @@ El conocimiento no es un destino, es un proceso continuo que disfruto profundame
 
 ## 🧭 Certificaciones
 
-Estoy construyendo una ruta de certificaciones alineada con este plan:
+Además de las certificaciones de **Stanford** y del **MIT**, sigo una ruta técnica de plataforma:
 
 - **Microsoft Azure**, en la línea de inteligencia artificial
 - **Databricks**, en la línea de Machine Learning
@@ -99,24 +109,26 @@ No son solo títulos: son una forma de validar y profundizar conocimientos que y
 - Consolidarme como **ingeniero de IA**, con sistemas de IA generativa funcionando y medidos
 - Dominar los fundamentos: evaluación de modelos, salida estructurada, recuperación de información y agentes
 - Publicar un portafolio de proyectos de punta a punta aplicados a logística
-- Avanzar en la maestría de la Universidad de los Andes
+- **Finales de 2027: postularme a la maestría en Inteligencia Artificial de Georgia Tech**
 
 ### **2028 – 2029 · Especialización y liderazgo**
-- Especialización avanzada en **Machine Learning e IA aplicada**
+- Profundizar en **Machine Learning e inteligencia artificial** a nivel de posgrado
+- Sumar las certificaciones de **Stanford** y del **MIT**
 - Llevar modelos a producción y operarlos de forma confiable
 - Liderar equipos técnicos y decisiones de arquitectura
-- Certificaciones profesionales avanzadas
 
 ### **2030 · Visión**
 - Ser un **referente en IA aplicada a logística y cadena de suministro en LATAM**
-- Estudiar **Transformación Digital en la Era de la Inteligencia Artificial en el MIT**
+- Encaminarme al posgrado cumbre: el **Blended Master's in Supply Chain Management del MIT**
 - Impactar organizaciones desde la estrategia y la tecnología
-- Preparar el camino hacia roles ejecutivos en datos e IA
+- Asumir roles ejecutivos en datos e IA
 
 ---
 
 ## 🎯 Objetivo a largo plazo
 
-Uno de mis grandes objetivos personales y profesionales es estudiar **Transformación Digital en la Era de la Inteligencia Artificial en el MIT**, como parte de un camino que me permita convertirme en un **CTO enfocado en datos e IA**.
+Mi proyección es clara: usar la **IA generativa y el Machine Learning para liderar estratégicamente empresas de alto nivel**, desde un rol de **CTO enfocado en datos e IA**.
+
+La combinación que estoy construyendo es poco común: años de operación logística real, formación técnica en inteligencia artificial en universidades de primer nivel y un posgrado del MIT en cadena de suministro.
 
 No busco solo construir sistemas, sino **crear visión, liderar tecnología y generar impacto real**.
