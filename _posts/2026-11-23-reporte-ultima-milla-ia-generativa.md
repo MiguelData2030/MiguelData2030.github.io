@@ -67,7 +67,7 @@ Usé el dataset público del **Amazon Last Mile Routing Research Challenge 2021*
 
 Lo convertí en 521 "archivos del día", uno por estación y fecha, que es lo que un analista descargaría al cierre de la jornada.
 
-**Un hallazgo de los datos reales:** mi primera versión trataba como duplicado a todo paquete que aparecía dos veces en el día. Al revisar, eran paquetes con un intento fallido en una parada y la entrega en otra: reintentos exitosos, no errores. Corregirlo bajó la tasa mediana de fallidos de 0,58 % a 0,52 %. Los tests hechos a mano no bastan; hay que correr el código contra datos reales.
+**Un hallazgo de los datos reales:** la versión inicial trataba como duplicado a todo paquete que aparecía dos veces en el día. Al revisar, eran paquetes con un intento fallido en una parada y la entrega en otra: reintentos exitosos, no errores. Corregirlo bajó la tasa mediana de fallidos de 0,58 % a 0,52 %. Los tests hechos a mano no bastan; hay que correr el código contra datos reales.
 
 ---
 
@@ -96,7 +96,7 @@ La respuesta esperada de cada caso se calcula con una implementación independie
 Lo que aprendí de estos números:
 
 - **El código nunca falló.** Calculó bien el 100 % de los casos en todas las versiones; todos los errores vinieron del texto del modelo.
-- **Mejora 1:** leí los 15 fallos de la primera versión, los clasifiqué y escribí un prompt que prohíbe redondear, calcular y proponer umbrales propios.
+- **Mejora 1:** leí los 15 fallos de la versión inicial, los clasifiqué y escribí un prompt que prohíbe redondear, calcular y proponer umbrales propios.
 - **Mejora 2:** si el verificador encuentra errores, se los devuelve al modelo para que reescriba el reporte. Con el prompt nuevo casi nunca se activa, así que funciona como red de seguridad barata.
 - **Un modelo más barato llega a 98 %** con las dos mejoras, a un tercio del costo.
 
